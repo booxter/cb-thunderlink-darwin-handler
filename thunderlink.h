@@ -2,7 +2,7 @@
 
 extern void HandleURL(char*);
 
-@interface BrowseAppDelegate: NSObject<NSApplicationDelegate>
+@interface ThunderlinkAppDelegate: NSObject<NSApplicationDelegate>
   - (void)handleGetURLEvent:(NSAppleEventDescriptor *) event withReplyEvent:(NSAppleEventDescriptor *)replyEvent;
 @end
 

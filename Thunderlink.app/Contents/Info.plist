@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>CFBundleDisplayName</key>
-    <string>b-r-o-w-s-e</string>
+    <string>Thunderlink</string>
     <key>CFBundleIdentifier</key>
-    <string>com.blakeorwhatever.browse</string>
+    <string>com.github.booxter.cb-thunderlink-darwin-handler</string>
     <key>CFBundleName</key>
-    <string>b-r-o-w-s-e</string>
+    <string>Thunderlink</string>
     <key>CFBundleDocumentTypes</key>
     <array>
       <dict>
@@ -274,27 +274,11 @@
     <array>
       <dict>
         <key>CFBundleURLName</key>
-        <string>Web site URL</string>
+        <string>Thunderlink URI</string>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>http</string>
-          <string>https</string>
-        </array>
-      </dict>
-      <dict>
-        <key>CFBundleURLName</key>
-        <string>FTP site URL</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>ftp</string>
-        </array>
-      </dict>
-      <dict>
-        <key>CFBundleURLName</key>
-        <string>Local file URL</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>file</string>
+          <string>thunderlink</string>
+          <string>cbthunderlink</string>
         </array>
       </dict>
     </array>
@@ -307,7 +291,7 @@
     <key>DTXcodeBuild</key>
     <string>9E501</string>
     <key>KSProductID</key>
-    <string>com.blakeorwhatever.browse</string>
+    <string>com.github.booxter.cb-thunderlink-darwin-handler</string>
     <key>KSVersion</key>
     <string>2.0.0</string>
     <key>LSFileQuarantineEnabled</key>

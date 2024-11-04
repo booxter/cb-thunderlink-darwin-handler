@@ -1,6 +1,6 @@
-#include "b-r-o-w-s-e.h"
+#include "thunderlink.h"
 
-@implementation BrowseAppDelegate
+@implementation ThunderlinkAppDelegate
 - (void)applicationWillFinishLaunching:(NSNotification *)aNotification
 {
   NSAppleEventManager *appleEventManager = [NSAppleEventManager sharedAppleEventManager];
@@ -23,7 +23,7 @@
 void RunApp(void) {
   [NSAutoreleasePool new];
   [NSApplication sharedApplication];
-  BrowseAppDelegate *app = [BrowseAppDelegate alloc];
+  ThunderlinkAppDelegate *app = [ThunderlinkAppDelegate alloc];
   [NSApp setDelegate:app];
   [NSApp run];
 }

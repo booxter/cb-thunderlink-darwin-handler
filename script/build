@@ -2,6 +2,9 @@
 
 set -e
 
+export GO111MODULE=auto
+
 go clean
 go build .
-cp b-r-o-w-s-e b-r-o-w-s-e.app/Contents/b-r-o-w-s-e
+mkdir Thunderlink.app/Contents/MacOS
+cp cb-thunderlink-darwin-handler Thunderlink.app/Contents/MacOS/Thunderlink
